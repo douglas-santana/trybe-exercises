@@ -1,0 +1,23 @@
+h3:hover {
+    border: 5px solid black;
+}
+
+#primaria:hover {
+    border: 5px solid yellowgreen;
+}
+
+#secundaria:hover {
+    border: 5px solid red;
+}
+
+#complementar:hover {
+    border: 10px solid purple;
+}
+
+#escura:hover {
+    border: 5px solid black;
+}
+
+#clara:hover {
+    border: 5px solid pink;
+}
