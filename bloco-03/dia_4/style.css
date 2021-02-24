@@ -8,6 +8,7 @@ h1, h3 {
     height: 50px;
     text-align: center;
     width: 200px;
+    margin-left: 575px;
   }
 
   .second {
@@ -16,6 +17,8 @@ h1, h3 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
+    margin-left: 375px;
   }
 
   .third {
@@ -24,8 +27,9 @@ h1, h3 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
   }
 
-  #podio {
-      display: inline-block;
+  .premio {
+    margin-left: 365px;
   }
