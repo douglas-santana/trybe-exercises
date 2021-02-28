@@ -4,7 +4,7 @@ let center = Math.trunc(n / 2) + 1; //arredonda para 2 e + 1 = 3 (será usado pa
 let right = center -1; //preenche as 2 primeiras colunas.
 let left = center + 1; //preenche as 2 ultimas colunas.
 
-for (lineIndex = 0; lineIndex < center; lineIndex += 1) { //irá percorrer as center (3) linhas: 0,1 e 2 (3 vezes).
+for (let lineIndex = 0; lineIndex < center; lineIndex += 1) { //irá percorrer as center (3) linhas: 0,1 e 2 (3 vezes).
     for (columnIndex = 0; columnIndex <= n; columnIndex += 1) { //irá percorrer cada espaço da coluna (5 colunas).
         if (columnIndex < right) { //enquanto a coluna for menor que o valor de right atribua ao resulta ' '.
             result += ' ';
