@@ -4,12 +4,12 @@
 // for vai decidir quantos '*' quero por linha
 // if vai ser a condição de parada ou mostra resultado por linha no console
 
-n = 5;
+let n = 5;
 
 let simbolo = '*';
 
     console.log(simbolo);
-    for (index = 1; index < n; index += 1) {
+    for (let index = 1; index < n; index += 1) {
         if (index >= n) {
             break;
         } else {
