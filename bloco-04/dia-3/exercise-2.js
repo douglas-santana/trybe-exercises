@@ -6,13 +6,13 @@
 
 n = 5;
 
-let resultado = '*';
+let simbolo = '*';
 
-    console.log(resultado);
+    console.log(simbolo);
     for (index = 1; index < n; index += 1) {
         if (index >= n) {
             break;
         } else {
-            console.log(resultado += '*')
+            console.log(simbolo += '*')
         }
     }
