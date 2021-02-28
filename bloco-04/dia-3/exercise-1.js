@@ -6,11 +6,11 @@ let n = 5;
 
 let resultado = '*';
 
-for (index = 1; index < n; index += 1) { // imprime '*' n vezes
+for (let index = 1; index < n; index += 1) { // imprime '*' n vezes
     resultado += '*';
 }
 
-for (res = 1; res < n; res += 1) { // imprime resultado n vezes
+for (let res = 1; res < n; res += 1) { // imprime resultado n vezes
     console.log(resultado);
 }
 
