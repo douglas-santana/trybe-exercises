@@ -5,7 +5,7 @@ let right = center -1; //preenche as 2 primeiras colunas.
 let left = center + 1; //preenche as 2 ultimas colunas.
 
 for (let lineIndex = 0; lineIndex < center; lineIndex += 1) { //irá percorrer as center (3) linhas: 0,1 e 2 (3 vezes).
-    for (columnIndex = 0; columnIndex <= n; columnIndex += 1) { //irá percorrer cada espaço da coluna (5 colunas).
+    for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) { //irá percorrer cada espaço da coluna (5 colunas).
         if (columnIndex < right) { //enquanto a coluna for menor que o valor de right atribua ao resulta ' '.
             result += ' ';
         } else if (columnIndex > right && columnIndex < left) { //enquanto a coluna estiver entre right e left atribua '*'.
