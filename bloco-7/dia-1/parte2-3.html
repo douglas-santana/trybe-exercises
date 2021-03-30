@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>parte II - exercicio 3</title>
+</head>
+
+<style>
+  body {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+  
+  #botao {
+    margin-top: 50px;
+    width: 100px;
+    font-size: 20px;
+  }
+
+  h1 {
+    padding-top: 100px;
+  }
+</style>
+
+<body>
+  <h1>Ao clicar no botão deverá ser mostrado na tela a quantidade de cliques.</h1>
+  <button id="botao">Cliques</button>
+  <p id="display">Aqui aparecerá o resultado :)</p>
+
+  <script>
+    let click = 0;
+    let clickToDisplay = document.getElementById('display');
+    let clickBut = document.getElementById('botao')
+      .addEventListener('click', () => clickToDisplay.innerText = click += 1);
+  </script>
+</body>
+</html>
