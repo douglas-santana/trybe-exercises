@@ -68,7 +68,7 @@ const funcTwo = (funcOne, array) => {
   });
   return habilities;
 }
-console.log(funcTwo(funcOne, array1));
+console.log(funcTwo(funcOne, array1.sort()));
 
 //forma resumida funcOne
 
